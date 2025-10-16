@@ -1,19 +1,19 @@
 class Animal:
 
-	def __init__(self, aleng, lleng, eyenum, tail, fur)
+	def __init__(self, aleng, lleng, eyenum, tail, fur):
 		self.arm_length = aleng
 		self.leg_length = lleng
 		self.number_of_eyes = eyenum
 		self.has_tail = tail
 		self.is_furry = fur
 
-	def print(self)
+	def print(self):
 		print("Here is my favorite animal")
-		print("Its arms are {self.arm_length} feet long")
-		print("Its legs are {self.leg_length} feet long")
-		print("It has {self.number_of_eyes} eyes")
-		print("Does it have a tail? {self.has_tail}")
-		print("Is it furry? {self.is_furry}")
+		print(f"Its arms are {self.arm_length} feet long")
+		print(f"Its legs are {self.leg_length} feet long")
+		print(f"It has {self.number_of_eyes} eyes")
+		print(f"Does it have a tail? {self.has_tail}")
+		print(f"Is it furry? {self.is_furry}")
 
 def main():
 
